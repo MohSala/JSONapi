@@ -42,7 +42,6 @@ codeunit 50104 RefreshALIssueCode
             ALIssue.Email := GetJsonToken(JsonObject, 'email').AsValue.AsText;
             ALIssue.Phone := GetJsonToken(JsonObject, 'phone').AsValue.AsCode;
             ALIssue.Address := GetJsonToken(JsonObject, 'address').AsValue.AsText;
-
             // Message('Test %1', GetJsonToken(JsonObject, 'latitude').AsValue.AsText);
             ALIssue.Insert;
         end;

@@ -18,6 +18,12 @@ pageextension 50110 ExtendNavigationArea extends "Team Member Role Center"
                     ApplicationArea = All;
 
                 }
+                action("Endpoint Settings")
+                {
+                    RunObject = page "EndPointPage";
+                    ApplicationArea = All;
+
+                }
             }
         }
     }

@@ -54,6 +54,22 @@ table 50102 ALIssue
         {
             CaptionML = ENU = 'Phone';
         }
+        field(14; Balance; Decimal)
+        {
+            CaptionML = ENU = 'Balance';
+        }
+        field(15; EndPoint; code[249])
+        {
+            CaptionML = ENU = 'EndPoint';
+        }
+        field(16; Username; text[30])
+        {
+            CaptionML = ENU = 'Username';
+        }
+        field(17; Password; text[30])
+        {
+            CaptionML = ENU = 'Password';
+        }
     }
 
     keys

@@ -52,6 +52,7 @@ page 50101 ALIssueList
                 {
                     ApplicationArea = All;
                 }
+
             }
         }
     }
@@ -76,11 +77,11 @@ page 50101 ALIssueList
         }
     }
 
-    // trigger OnOpenPage();
-    // begin
-    //     RefreshIssues();
-    //     if FindFirst then;
-    // end;
+    trigger OnOpenPage();
+    begin
+        RefreshIssues();
+        if FindFirst then;
+    end;
 
 
 }
