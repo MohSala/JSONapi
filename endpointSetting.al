@@ -34,15 +34,7 @@ page 50111 EndpointPage
     {
         area(Processing)
         {
-            action(ActionName)
-            {
-                ApplicationArea = All;
-
-                trigger OnAction()
-                begin
-
-                end;
-            }
+            
         }
     }
 
